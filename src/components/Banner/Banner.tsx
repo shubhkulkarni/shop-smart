@@ -1,6 +1,6 @@
-import Carousel from 'nuka-carousel';
-import { Image, makeStyles, shorthands, tokens } from "@fluentui/react-components";
+import { Image, makeStyles } from "@fluentui/react-components";
 import { ArrowCircleLeft24Regular, ArrowCircleRight24Regular } from '@fluentui/react-icons';
+import Carousel from 'nuka-carousel';
 import b1 from '../../assets/banner2.jpg';
 import b2 from '../../assets/banner3.jpg';
 const useStyles = makeStyles({

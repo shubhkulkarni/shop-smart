@@ -1,11 +1,10 @@
-import { Body1, Button, Caption1, Field, Textarea, makeStyles, shorthands, tokens } from '@fluentui/react-components'
-import React, { useMemo } from 'react'
+import { Body1, Button, Field, Textarea, makeStyles, shorthands, tokens } from '@fluentui/react-components';
+import { AppsListDetail24Regular } from '@fluentui/react-icons';
+import { useMemo } from 'react';
+import { Rating } from 'react-simple-star-rating';
+import NoItem from '../components/NoItem/NoItem';
 import ReviewCard from '../components/Review/ReviewCard';
 import { products } from '../mock/products';
-import { AppsListDetail24Regular } from '@fluentui/react-icons';
-import { Rating } from 'react-simple-star-rating';
-import { Alert } from '@fluentui/react-components/unstable';
-import NoItem from '../components/NoItem/NoItem';
 interface IReviewsProps{
     id: string
 }

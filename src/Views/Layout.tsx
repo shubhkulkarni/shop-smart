@@ -1,9 +1,8 @@
-import { Body1, Link, makeStyles, shorthands, tokens } from '@fluentui/react-components'
-import React, { useCallback, useState } from 'react'
+import { Body1, Link, makeStyles, shorthands, tokens } from '@fluentui/react-components';
+import React, { useCallback, useState } from 'react';
+import AppDrawer from '../components/Drawer/Drawer';
 import Navbar from '../components/Navbar/Navbar';
 import { Widths } from '../constants/constants';
-import AppDrawer from '../components/Drawer/Drawer';
-import CartProduct from '../components/ProductCard/cartProduct';
 import CartDrawer from './CartDrawer';
 interface ILayoutprops extends React.PropsWithChildren {
 

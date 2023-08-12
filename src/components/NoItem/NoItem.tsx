@@ -1,6 +1,5 @@
-import { makeStyles, tokens } from '@fluentui/react-components'
-import { Alert } from '@fluentui/react-components/unstable'
-import React from 'react'
+import { makeStyles, tokens } from '@fluentui/react-components';
+import { Alert } from '@fluentui/react-components/unstable';
 interface INoItem{
     type: string
 }

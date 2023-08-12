@@ -1,11 +1,9 @@
-import { Body1, Button, Caption1, Caption2, Card, CardHeader, CardPreview, Text, makeStyles, shorthands, tokens } from '@fluentui/react-components'
-import { Add24Filled, Delete24Regular, MoreHorizontal20Filled, Subtract24Filled } from '@fluentui/react-icons'
-import React from 'react'
-import { IProduct } from '../../types/types';
-import { useDispatch, useSelector } from 'react-redux';
-import { addQuantity, deleteItem, reduceQuantity } from '../../redux/slices/cart';
-import { RootState } from '../../redux/store';
+import { Body1, Button, Card, CardHeader, CardPreview, Text, makeStyles, shorthands, tokens } from '@fluentui/react-components';
+import { Add24Filled, Delete24Regular, Subtract24Filled } from '@fluentui/react-icons';
+import { useDispatch } from 'react-redux';
 import { useCartPrice } from '../../hooks/hooks';
+import { addQuantity, deleteItem, reduceQuantity } from '../../redux/slices/cart';
+import { IProduct } from '../../types/types';
 const useStyles = makeStyles({
     card: {
         // width: "360px",

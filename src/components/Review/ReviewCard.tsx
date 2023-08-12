@@ -1,8 +1,7 @@
-import { Avatar, Body1Strong, Body1Stronger, Subtitle1, Subtitle2, makeStyles, shorthands, tokens } from '@fluentui/react-components'
-import React, { useId } from 'react'
-import { IReview } from '../../types/types';
-import { GuestRegular } from '@fluentui/react-icons';
+import { Avatar, Body1Strong, makeStyles, shorthands, tokens } from '@fluentui/react-components';
+import { useId } from 'react';
 import { Rating } from 'react-simple-star-rating';
+import { IReview } from '../../types/types';
 
 interface IReviewCard {
     review: IReview

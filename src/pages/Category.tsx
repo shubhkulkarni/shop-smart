@@ -1,8 +1,7 @@
-import React from 'react'
-import { useParams } from 'react-router-dom'
-import Results from '../Views/Results'
-import ProductsShelf from '../Views/ProductsShelf'
 import { Title1 } from '@fluentui/react-components'
+import { useParams } from 'react-router-dom'
+import ProductsShelf from '../Views/ProductsShelf'
+import Results from '../Views/Results'
 import { getProducts } from '../mock/services'
 
 function Category() {

@@ -19,7 +19,6 @@ const useStyles = makeStyles({
 });
 function AppDrawer(props: IAppDrawerProps) {
     const {setIsOpen,isOpen,children,title} = props;
-    const styles = useStyles();
   return (
    
     <Drawer

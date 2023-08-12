@@ -1,11 +1,10 @@
-import React from 'react'
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import Home from '../pages/Home';
-import Featured from '../pages/Featured';
-import Product from '../pages/Product';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Category from '../pages/Category';
-import SearchResults from '../pages/SearchResults';
 import CheckOut from '../pages/CheckOut';
+import Featured from '../pages/Featured';
+import Home from '../pages/Home';
+import Product from '../pages/Product';
+import SearchResults from '../pages/SearchResults';
 
 function Router() {
   return (

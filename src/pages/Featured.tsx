@@ -1,11 +1,8 @@
-import React from 'react'
-import Layout from '../Views/Layout'
-import { Title1, Title3 } from '@fluentui/react-components'
 import ProductsShelf from '../Views/ProductsShelf'
 
-import { IProduct } from '../types/types'
 import Results from '../Views/Results'
 import { productMock } from '../mock/services'
+import { IProduct } from '../types/types'
 
 function Featured() {
   return (

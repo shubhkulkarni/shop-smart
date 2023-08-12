@@ -1,12 +1,9 @@
 import { makeStyles } from "@fluentui/react-components";
-import ProductCard from "../components/ProductCard/ProductCard";
-import { IProduct } from "../types/types"
 import { useCallback } from "react";
-import { shallowEqual, useDispatch, useSelector, useStore } from "react-redux";
-import { ICartState, addToCart, deleteItem } from "../redux/slices/cart";
-import { RootState } from "../redux/store";
 import { useNavigate } from "react-router-dom";
+import ProductCard from "../components/ProductCard/ProductCard";
 import { useCartControls } from "../hooks/hooks";
+import { IProduct } from "../types/types";
 
 interface IProductShelf{    
     products: IProduct[];

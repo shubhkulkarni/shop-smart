@@ -1,11 +1,10 @@
-import { FluentProvider, teamsDarkTheme, teamsLightTheme, webLightTheme } from '@fluentui/react-components'
+import { FluentProvider, teamsDarkTheme, webLightTheme } from '@fluentui/react-components'
 import './App.css'
 
-import Home from './pages/Home'
-import Router from './router/router'
-import { RootState } from './redux/store'
 import { useSelector } from 'react-redux'
 import { Themes } from './constants/constants'
+import { RootState } from './redux/store'
+import Router from './router/Router'
 
 function App() {
 

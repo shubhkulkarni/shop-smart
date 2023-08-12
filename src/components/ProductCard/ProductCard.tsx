@@ -1,11 +1,7 @@
-import { Body1, Body1Strong, Button, Caption1, Card, CardFooter, CardHeader, CardPreview, LargeTitle, Subtitle1, Title1, Title2, Title3, makeStyles, shorthands, tokens } from '@fluentui/react-components';
-import { MoreHorizontal20Filled, Open16Regular, Share16Regular, ShoppingBag24Regular } from '@fluentui/react-icons';
-import React from 'react'
+import { Button, Caption1, Card, CardFooter, CardPreview, Subtitle1, Title2, makeStyles, shorthands, tokens } from '@fluentui/react-components';
+import { ShoppingBag24Regular } from '@fluentui/react-icons';
 import { Rating } from 'react-simple-star-rating';
 import { IProduct } from '../../types/types';
-import { shallowEqual, useSelector } from 'react-redux';
-import { ICartState } from '../../redux/slices/cart';
-import { RootState } from '../../redux/store';
 interface IProductCardprops extends IProduct {
     onCartClick: () => void;
     inCart: boolean;

@@ -1,11 +1,8 @@
-import React from 'react'
 import Layout from '../Views/Layout'
-import Banner from '../components/Banner/Banner'
-import ProductCard from '../components/ProductCard/ProductCard'
 import ProductsShelf from '../Views/ProductsShelf'
-import { products } from '../mock/products'
-import { IProduct } from '../types/types'
+import Banner from '../components/Banner/Banner'
 import { productMock } from '../mock/services'
+import { IProduct } from '../types/types'
 
 function Home() {
   return (

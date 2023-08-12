@@ -1,7 +1,6 @@
-import React from 'react'
-import Layout from './Layout'
-import { Title3 } from '@fluentui/react-components'
-import ProductsShelf from './ProductsShelf'
+import { Title3 } from '@fluentui/react-components';
+import React from 'react';
+import Layout from './Layout';
 interface IResultsProps extends React.PropsWithChildren{
     title: string;
 }

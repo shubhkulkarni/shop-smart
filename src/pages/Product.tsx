@@ -1,13 +1,13 @@
-import React, { useCallback, useMemo } from 'react'
-import { useNavigate, useParams } from 'react-router-dom';
-import { products } from '../mock/products';
-import Layout from '../Views/Layout';
-import { makeStyles, Image, Button, shorthands, Title1, Subtitle2, tokens, Caption1, Caption2, Body2, Subtitle1, Body1, Caption1Stronger, Caption1Strong, Body1Strong } from '@fluentui/react-components';
+import { Body1, Body1Strong, Button, Caption1, Caption1Strong, Image, Subtitle1, Subtitle2, Title1, makeStyles, shorthands, tokens } from '@fluentui/react-components';
 import { Alert } from '@fluentui/react-components/unstable';
-import { Rating } from 'react-simple-star-rating';
 import { ShoppingBag24Regular, ShoppingBagArrowLeft24Regular, ShoppingBagPercent24Regular } from '@fluentui/react-icons';
+import { useCallback, useMemo } from 'react';
+import { useNavigate, useParams } from 'react-router-dom';
+import { Rating } from 'react-simple-star-rating';
+import Layout from '../Views/Layout';
 import Reviews from '../Views/Reviews';
 import { useCartControls } from '../hooks/hooks';
+import { products } from '../mock/products';
 import { getProductBinding } from '../mock/services';
 
 function Product() {

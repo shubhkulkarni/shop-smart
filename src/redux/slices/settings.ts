@@ -1,6 +1,5 @@
-import { createSlice } from '@reduxjs/toolkit'
-import type { PayloadAction } from '@reduxjs/toolkit'
-import { Themes } from '../../constants/constants'
+import { createSlice } from '@reduxjs/toolkit';
+import { Themes } from '../../constants/constants';
 
 
 

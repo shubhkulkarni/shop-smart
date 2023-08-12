@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from 'react'
-import Results from '../Views/Results'
+import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import ProductsShelf from '../Views/ProductsShelf';
-import { productMock, searchProduct } from '../mock/services';
+import Results from '../Views/Results';
 import NoItem from '../components/NoItem/NoItem';
+import { productMock, searchProduct } from '../mock/services';
 
 function SearchResults() {
     const {query} = useParams();

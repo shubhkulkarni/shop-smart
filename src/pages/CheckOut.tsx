@@ -1,16 +1,12 @@
-import { Button, Divider, Field, Input, Label, Textarea, Title3, makeStyles } from '@fluentui/react-components'
-import React, { useCallback, useEffect, useMemo, useState } from 'react'
+import { Button, Divider, Field, Input, Textarea, Title3, makeStyles } from '@fluentui/react-components';
+import { useCallback, useMemo, useState } from 'react';
+import { useParams } from 'react-router-dom';
 import Layout from '../Views/Layout';
-import { useParams, useSearchParams } from 'react-router-dom';
-import { RootState } from '../redux/store';
-import { useSelector } from 'react-redux';
-import { useCartPrice } from '../hooks/hooks';
 import CartProduct from '../components/ProductCard/cartProduct';
-import { getProductBinding, searchProduct } from '../mock/services';
-import { IProduct } from '../types/types';
+import { useCartPrice } from '../hooks/hooks';
 import { products } from '../mock/products';
-import Results from '../Views/Results';
-import { Send16Regular } from '@fluentui/react-icons';
+import { getProductBinding } from '../mock/services';
+import { IProduct } from '../types/types';
 
 function CheckOut() {
     const styles = useStyles();

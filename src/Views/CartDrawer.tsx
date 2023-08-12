@@ -1,11 +1,10 @@
-import React, { useCallback, useMemo } from 'react'
-import CartProduct from '../components/ProductCard/cartProduct'
-import { useDispatch, useSelector } from 'react-redux';
-import { RootState } from '../redux/store';
-import { Body1, Button, Caption1, Caption2, Divider, Subtitle1, Subtitle2, makeStyles, shorthands } from '@fluentui/react-components';
-import { useCartPrice } from '../hooks/hooks';
-import { Send24Regular,ShoppingBagDismiss24Regular } from '@fluentui/react-icons';
+import { Body1, Button, Divider, Subtitle1, Subtitle2, makeStyles, shorthands } from '@fluentui/react-components';
+import { Send24Regular, ShoppingBagDismiss24Regular } from '@fluentui/react-icons';
+import { useCallback } from 'react';
+import { useDispatch } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
+import CartProduct from '../components/ProductCard/cartProduct';
+import { useCartPrice } from '../hooks/hooks';
 import { clearCart } from '../redux/slices/cart';
 
 function CartDrawer() {
